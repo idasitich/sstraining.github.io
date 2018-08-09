@@ -1,0 +1,777 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Testing Pro</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/css.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<!--   <link href="fonts/Dosis-Regular.otf" rel="stylesheet"> -->
+ <!--  <link rel=”shortcut icon” href="images/Favicon.ico"> -->
+ <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" >
+
+<script src="js/jquery-3.2.1.min.js"></script>
+ <script src="js/owl.carousel.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+<link href="js/owl.theme.green.css" rel="stylesheet">
+
+  <link href="js/owl.carousel.css" rel="stylesheet">
+
+  <link href="js/owl.carousel.min.css" rel="stylesheet">
+
+<!--    <link href="fonts/Montserrat-Regular.otf" rel="stylesheet"> -->
+
+ <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <style>
+
+/*  @font-face{ font-family: fontbaru;
+  src: url(fonts/Dosis-Regular.otf) } */
+
+  @font-face{ font-family: fontbaru2;
+  src: url(fonts/Montserrat-Regular.otf); }
+
+  body{margin: 0px; padding: 0;
+ /* font-family: fontbaru2;*/
+ /*font-family: 'Ubuntu', sans-serif;*/
+ font-family: 'Montserrat', sans-serif;
+ /*font-weight: bold;*/
+ font-size: 14px;
+}
+
+
+
+
+  </style>
+</head>
+
+
+<body>
+
+
+<div id="wrapper">
+
+                <div class="header">
+                <div class="inner-wrapper"z>
+                <!-- <img class="images" src="images/logo1.png"> -->
+               <!--  <ul class="ul">
+                  <li class="li"><a class="active1" href="#home">Home</a></li>
+                  <li class="li"><a href="#display">Display Homes</a></li>
+                  <li class="li"><a href="#builders">Builders</a></li>
+                  <li class="li"><a href="#concepts">Concepts</a></li>
+                  <li class="li"><a href="#news">News</a></li>
+                  <li class="li"><a href="#contact">Contact Us</a></li>
+                  <li class="li" style="float: right;"><a href="#login">Log In</a></li>
+                </ul> -->
+               <div class="topnav" id="myTopnav">
+                <a href="#images" class="a1"><img class="images" src="images/logo1.png"></a>
+                <a href="#home" class="active1">Home</a>
+                 <a href="#display">Display Homes</a>
+                 <a href="#builder">Builder</a>
+                <a href="#concepts">Concepts</a>
+                <a href="#news">News</a>
+                <a href="#about">Contact Us</a>
+                <a class="login" href="#login" >Log In</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+              </div>
+
+
+                </div>
+                </div>
+
+
+<!-- <div class="slide">
+<div class="slide2">
+<img src="images/slide1.jpg" style="width:100%; height: 700px; object-fit: cover;">
+</div>
+</div> -->
+
+<div class="slide-container">
+
+          <div class="slide">
+          <img src="images/slide3.jpg" style="width:100%;  object-fit: cover;">
+          </div>
+          <div class="slide">
+          <img src="images/slide2.jpg" style="width:100%;  object-fit: cover;">
+          </div>
+          <div class="slide">
+          <img src="images/slide3.jpg" style="width:100%;  object-fit: cover;">
+          </div>
+          <div class="slide">
+          <img src="images/slide2.jpg" style="width:100%;  object-fit: cover;">
+          </div>
+          <div class="slide">
+          <img src="images/slide3.jpg" style="width:100%; object-fit: cover;">
+          </div>
+
+   <!--        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ -->
+          <br>
+          <div class="box-dot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+          </div>
+
+      <div class="box-form"></div>
+      <div class="form1">
+      <div class="form-box">
+      <div class="bar1">
+      <ul class="form-ul3">
+      <li class="form-li4">
+      <select name="" placeholder="Any" class="sel-2">
+      <option value="1">Any</option>
+      <option value="1">1</option>
+      <option value="1">2</option>
+      </select ></li>
+      <li class="form-li2">
+      <input class="sel-1" type="text" name="" placeholder="Search by Suburbs or postcode"></li>
+      <li class="form-li4">
+      <button style="background-color: #16a89e; color: white; border:none;" class="sel-1" name="Search">Search</button></li>
+      </ul>
+      </div>
+
+      </div>
+      <div class="form-box">
+      <div class="bar2">
+        <ul class="form-ul2">
+      <li class="" style="text-align: left;"><input type="checkbox" name="" >Surroundings Suburbs</li>
+      <a href="#"><li class="view">+View Less Options</li></a>
+      </ul>
+      </div>
+      </div>
+
+      <div class="form-box">
+      <div class="bar3">
+        <ul class="form-ul">
+      <li class="form-li1">
+      <p>Type Of Property</p>
+      <select placeholder="select your beverage" class="sel-1">
+      <option value="1">Any</option>
+      <option value="1">1</option>
+      <option value="1">2</option></select>
+      </li>
+      <li class="form-li1">
+      <p>Price Min</p>
+      <select class="sel-1">
+      <option>Any</option>
+      <option value="1">Any</option>
+      <option value="1">2</option></select>
+      </li>
+      <li class="form-li1">
+      <p>Price Max</p>
+      <select class="sel-1">
+      <option>Any</option>
+      <option value="1">Any</option>
+      <option value="1">2</option></select>
+      </li>
+      <li class="form-li1">
+      <p>Bedrooms</p>
+      <select class="sel-1">
+      <option>Any</option>
+      <option value="1">Any</option>
+      <option value="1">2</option></select>
+      </li>
+      <li class="form-li1">
+      <p>Bathrooms</p>
+      <select class="sel-1">
+      <option>Any</option>
+      <option value="1">Any</option>
+      <option value="1">2</option></select>
+      </li>
+      </ul>
+      </div>
+      </div>
+
+      <div class="form-box">
+      <div class="bar4">
+        <ul class="form-ul">
+      <li class="form-li1">
+      <p>Builders</p>
+      <select  class="sel-1">
+      <option>Any</option>
+      <option value="1">Any</option>
+      <option value="1">2</option></select></li>
+      <li class="form-li1">
+      <p>Parking</p>
+      <select  class="sel-1">
+      <option>Any</option>
+      <option value="1">Any</option>
+      <option value="1">2</option></select></li>
+      <li class="form-li1">
+      <p>Other</p>
+      <select  class="sel-1">
+      <option>Any</option>
+      <option value="1">Any</option>
+      <option value="1">2</option></select></li>
+      <li class="last">
+      <p>Keyword</p><input  class="sel-1" type="text" name=""></li>
+      </ul>
+      </div>
+      </div>
+      </div>
+</div>
+
+<!-- </div> -->
+
+
+
+                    <div class="featured" >
+
+                            <h1 class="h1">Featured Property</h1>
+                          <!--   <div class="container-f">
+                                <div class="box1"><img class="img-box1" src="images/pict1.jpg">
+                                <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"></div></li>
+                                  <li class="icon"><div class="icon-bath"></div></li>
+                                  <li class="icon "><div class="icon-car"></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+
+                                </div>
+
+                                <div class="box1"><img class="img-box1" src="images/pict1.jpg">
+                                <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"></div></li>
+                                  <li class="icon"><div class="icon-bath"></div></li>
+                                  <li class="icon "><div class="icon-car"></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+
+                                </div>
+                                <div class="box1"><img class="img-box1" src="images/pict1.jpg">
+                                <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"></div></li>
+                                  <li class="icon"><div class="icon-bath"></div></li>
+                                  <li class="icon "><div class="icon-car"></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+
+                                </div>
+                                <div class="box1"><img class="img-box1" src="images/pict1.jpg">
+                                <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"></div></li>
+                                  <li class="icon"><div class="icon-bath"></div></li>
+                                  <li class="icon "><div class="icon-car"></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+
+                                </div>
+
+                                </div>
+                                </div> -->
+            <div class="owl">
+            <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item">
+            <div class="item2">
+            <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+
+           <!--     <div class="border1"></div>  -->
+            </div>
+
+            <div class="item">
+             <div class="item2">
+             <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+             <div class="item2">
+             <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+            <div class="item">
+              <div class="item2">
+              <div class="sticker">for sale</div>
+            <img class="img-item" src="images/pict1.jpg">
+           </div>
+           <div class="box11">
+                                <p class="p1">Tuart Hill</p>
+                                <p class="p2">65 Eldorado Street</p>
+                                <p class="p3">From $429,000</p>
+                                <div class="border1"></div>
+                                <ul>
+                                  <li class="icon"><div class="icon-bed"><span class="span-a">3</span></li>
+                                  <li class="icon"><div class="icon-bath"><span class="span-a">2</span></div></li>
+                                  <li class="icon "><div class="icon-car"><span class="span-a">1</span></div></li>
+
+                                </ul>
+                                <a href="#"><div class="icon sp2">View Property</div></a>
+                                </div>
+            </div>
+          </div>
+          </div>
+
+                                <div class="clear">
+                                </div>
+                                 <!--  <a class="prev2" onclick="plusSlides(-1)">&#10094;</a>
+                                  <a class="next2" onclick="plusSlides(1)">&#10095;</a> -->
+                            </div>
+                            </div>
+
+
+
+
+
+
+
+
+              <div class="advert">
+
+              </div>
+                <div class="latest">
+                    <h1 class="h1">Latest News</h1>
+
+                    <div class="bungkus">
+                    <div class="boxes">
+                    <div class="box2">
+
+                    <img class="img-box2" src="images/pictH.jpg">
+
+                    <a href="#"><div class="transbox">
+
+                    <i class="fa fa-chevron-right "></i>
+                    </div><div class="text-b">Humanitarian</div></a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="bungkus">
+                    <div class="boxes">
+                    <div class="box2">
+                    <img class="img-box2" src="images/pict2.jpg">
+                    <a href="#">
+                    <div class="transbox2">
+
+                    <i class="fa fa-chevron-right "></i>
+                  </div><div class="text-c">  Our Environment</div></a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="bungkus">
+                    <div class="boxes">
+                    <div class="box2">
+                    <img class="img-box2" src="images/pict3.jpg">
+                    <a href="#">
+                    <div class="transbox">
+
+                    <i class="fa fa-chevron-right "></i>
+                  </div><div class="text-b">Architecture Design</div>   </a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="bungkus">
+                    <div class="boxes">
+                    <div class="box2">
+                    <img class="img-box2" src="images/pict4.jpg">
+                    <a href="#">
+                    <div class="transbox2">
+
+                    <i class="fa fa-chevron-right "></i>
+                  </div><div class="text-c">Explores</div></a>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+
+                    </div>
+
+
+
+
+      <div class="footer">
+      <div class="social">
+          <ul >
+          <a href="#"><li class="li-social"><i class="aw fa fa-facebook" ></i></li></a>
+          <a href="#"><li class="li-social"><i class="aw fa fa-twitter"></i></li></a>
+          <a href="#"><li class="li-social"><i class="aw fa fa-pinterest-p "></i></li></a>
+          <a href="#"><li class="li-social"><i class="aw fa fa-linkedin"></i></li></a>
+          <a href="#"><li class="li-social"><i class="aw fa fa-youtube"></i></li></a>
+          <a href="#"><li class="li-social"><i class="aw fa fa-google-plus"></i></li></a>
+
+          </ul>
+
+      </div>
+       <div class="text">
+          <ul>
+          <a href="#"><li class="li-social">Advertise with us</li></a>
+          <a href="#"><li class="li-social">Contact Us</li></a>
+          <a href="#"><li class="li-social">Legal</li></a>
+          <a href="#"><li class="li-social">Privacy</li></a>
+          <a href="#"><li class="li-social">Site Map</li></a>
+          <a href="#"><li class="li-social"">Any other relevant information</li></a>
+
+          </ul>
+      </div>
+      <a href="#" style="text-decoration: none;"><p style="color: white;
+          margin: 0 auto;
+          text-align: center;">&copy;www.youdisplayhome.com.au all right reserved</p></a>
+          <div class="clear"></div>
+
+      </div>
+
+
+
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    // var i = document.getElementsByClass("images");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides() {
+  // var i;
+  // var slides = document.getElementsByClassName("slide");
+  // var dots = document.getElementsByClassName("dot");
+  // if (n > slides.length) {slideIndex = 1}
+  // if (n < 1) {slideIndex = slides.length}
+  // for (i = 0; i < slides.length; i++) {
+  //     slides[i].style.display = "none";
+  // }
+  // for (i = 0; i < dots.length; i++) {
+  //     dots[i].className = dots[i].className.replace(" active", "");
+  // }
+  // slides[slideIndex-1].style.display = "block";
+  // dots[slideIndex-1].className += " active";
+  // setTimeout(showSlides, 2000);
+
+    var i;
+    var slides = document.getElementsByClassName("slide");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" activedot", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " activedot";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+
+
+
+}
+
+function showSlides2() {
+
+    var i;
+    var slides = document.getElementsByClassName("box1");
+    // var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlide2, 2000); // Change image every 2 seconds
+
+
+
+}
+
+
+
+
+$(document).ready(function(){
+    var owl = $('.owl-carousel');
+owl.owlCarousel({
+    loop:true,
+    nav:true,
+    margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        650:{
+            items:2
+        },
+        960:{
+            items:3
+        },
+        1200:{
+            items:4
+        }
+    }
+ //  $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+ // $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
+});
+
+
+owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+        owl.trigger('next.owl',[5000]);
+    } else {
+        owl.trigger('prev.owl,[5000]');
+    }
+    <!-- e.preventDefault(); -->
+});
+ $( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+ $( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
+});
+
+</script>
+
+</body>
+</html>
